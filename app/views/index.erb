@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Project.D</title>
+  <!-- links to CSS stylesheet in the public directory -->
+  <link rel="stylesheet" href="index.css" >
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Inconsolata') 400,200,300,700,500);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'work Sans', sans-serif;
+    background: url("https://images5.alphacoders.com/568/568653.jpg") no-repeat center center fixed;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.home-page {
+  margin-top:17%;
+  text-align:center;
+}
+
+.name-header {
+  color: white;
+}
+  </style>
+</head>
+<body> 
+
+  <div class="home-page">
+    <h1>Welcome (User name) to Imports</h1>
+    <h3>Welcome to our page. We'll be introducing you to many kinds of cars from 1980-2000.</h3>
+    <form method ="POST" action="/results" >
+      <p>Search Imports: <input Text="text" name="car"></p>
+      <p>Search Imported Parts: <input text="brrr" name="part"></p>
+      <input type="submit" value="Search">
+    </form>
+  </div>
+</body>
+</html>
+
